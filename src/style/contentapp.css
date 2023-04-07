@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+app-content figure {
+    padding: 0px;
+    margin: 0px;
+    background-color: antiquewhite;
+    height: 80%;
+    width: 100%;
+    
+    display: flex;
+}
+
+figure app-generate, figure app-render-gacha{
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+    gap: 1%;
+}
+
+figure app-generate {
+    width: 20%;
+}
+
+figure app-render-gacha {
+    width: 80%;
+    background-color: white;
+}
+
+app-generate h2 {
+    font-weight: 400;
+}
+
+select {
+    width: 60%;
+    min-width: 15ch;
+    max-width: 30ch;
+    border: 1px solid var(--select-border);
+    border-radius: 0.25em;
+    padding: 0.25em 0.5em;
+    font-size: 1.25rem;
+    cursor: pointer;
+    line-height: 1.1;
+    background-color: #fff;
+    background-image: linear-gradient(to top, #f9f9f9, #fff 33%);
+  }
+
+  container-waifu-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    max-width: 40%;
+    min-width: 20%;
+
+    min-height: 90%;
+    border-radius: 5% 0px 20% 0px ;
+    -webkit-border-radius: 5% 0px 20% 0px ;
+    -moz-border-radius: 5% 0px 20% 0px ;
+    -ms-border-radius: 5% 0px 20% 0px ;
+    -o-border-radius: 5% 0px 20% 0px ;
+}
+
+  container-waifu-item img {
+    max-width: 80%;
+    max-height: 90%;
+    min-height: 80%;
+  }
+
+  waifu-info {
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+
+    padding-left: 10%;
+  }
+
+  waifu-info input[type="text"] {
+    width: 200%;
+    background-color: #f9f9f9;
+    padding: 0.25em 0.5em;
+
+    border: none;
+    border-bottom: 1px solid black;
+  }

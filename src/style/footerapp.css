@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+app-footer figure {
+    padding: 0px;
+    margin: 0px;
+
+    height: 10%;
+    width: 100%;
+
+    border-top: 2px solid antiquewhite;
+}

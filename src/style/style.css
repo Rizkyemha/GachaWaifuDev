@@ -1,0 +1,17 @@
+@import './headerapp.css';
+@import './contentapp.css';
+@import './footerapp.css';
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+figure {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Poppins', sans-serif;
+}
